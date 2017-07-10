@@ -1,0 +1,518 @@
+/*
+   style.css FILE part of Color Portfolio Template
+*/
+
+/*
+  Our Roboto fonts used, fontsquirrel generator sub groups them, but we don't
+*/
+
+/*
+  Roboto, thin to black
+  */
+
+
+
+@font-face{
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/roboto/roboto-thin.eot');
+  src: url('../fonts/roboto/roboto-thin.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-thin.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-thin.woff') format('woff'),
+       url('../fonts/roboto/roboto-thin.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-thin.svg#roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto/roboto-light.eot');
+  src: url('../fonts/roboto/roboto-light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-light.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-light.woff') format('woff'),
+       url('../fonts/roboto/roboto-light.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-light.svg#roboto') format('svg');
+
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/roboto/roboto-lightitalic.eot');
+  src: url('../fonts/roboto/roboto-lightitalic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-lightitalic.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-lightitalic.woff') format('woff'),
+       url('../fonts/roboto/roboto-lightitalic.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-lightitalic.svg#roboto') format('svg');
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto/roboto-regular.eot');
+  src: url('../fonts/roboto/roboto-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-regular.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-regular.woff') format('woff'),
+       url('../fonts/roboto/roboto-regular.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-regular.svg#roboto');
+
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/roboto/roboto-italic.eot');
+  src: url('../fonts/roboto/roboto-italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-italic.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-italic.woff') format('woff'),
+       url('../fonts/roboto/roboto-italic.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-italic.svg#roboto') format('svg');
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto/roboto-medium.eot');
+  src: url('../fonts/roboto/roboto-medium.eot?#iefix') format('embeddedopentype'),
+       url('../fonts/roboto/roboto-medium.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-medium.woff') format('woff'),
+       url('../fonts/roboto/roboto-medium.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-medium.svg#roboto') format('svg');
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/roboto/roboto-mediumitalic.eot');
+  src: url('../fonts/roboto/roboto-mediumitalic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-mediumitalic.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-mediumitalic.woff') format('woff'),
+       url('../fonts/roboto/roboto-mediumitalic.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-mediumitalic.svg#roboto') format('svg');
+
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto/roboto-bold.eot');
+  src: url('../fonts/roboto/roboto-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-bold.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-bold.woff') format('woff'),
+       url('../fonts/roboto/roboto-bold.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-bold.svg#roboto') format('svg');
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/roboto/roboto-bolditalic.eot');
+  src: url('../fonts/roboto/roboto-bolditalic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-bolditalic.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-bolditalic.woff') format('woff'),
+       url('../fonts/roboto/roboto-bolditalic.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-bolditalic.svg#roboto') format('svg');
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto/roboto-black.eot');
+  src: url('../fonts/roboto/roboto-black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-black.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-black.woff') format('woff'),
+       url('../fonts/roboto/roboto-black.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-black.svg#roboto') format('svg');
+}
+@font-face {
+  font-family: 'roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/roboto/roboto-blackitalic.eot');
+  src: url('../fonts/roboto/roboto-blackitalic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto/roboto-blackitalic.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-blackitalic.woff') format('woff'),
+       url('../fonts/roboto/roboto-blackitalic.ttf') format('truetype'),
+       url('../fonts/roboto/roboto-blackitalic.svg#roboto') format('svg');
+}
+
+/*
+  orbitron
+*/
+@font-face {
+  font-family: 'orbitron';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/orbitron/orbitron-light.eot');
+  src: url('../fonts/orbitron/orbitron-light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orbitron/orbitron-light.woff') format('woff'),
+       url('../fonts/orbitron/orbitron-light.ttf') format('truetype'),
+       url('../fonts/orbitron/orbitron-ligh.svg#orbitron') format('svg');
+}
+@font-face {
+  font-family: 'orbitron';
+  font-style: normal;
+  font-size: 500;
+  src: url('../fonts/orbitron/orbitron-medium.eot');
+  src: url('../fonts/orbitron/orbitron-medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orbitron/orbitron-medium.woff') format('woff'),
+       url('../fonts/orbitron/oribtron-medium.ttf') format('truetype'),
+       url('../fonts/orbitron/orbitron-medium.svg#orbitron') format('svg');
+}
+@font-face {
+  font-family: 'orbitron';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/orbitron/orbitron-bold.eot');
+  src: url('../fonts/orbitron/orbitron-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orbitron/orbitron-bold.woff') format('woff'),
+       url('../fonts/orbitron/orbitron-bold.ttf') format('truetypee'),
+       url('../fonts/orbitron/orbitron-bold.svg#orbitron') format('svg');
+}
+@font-face {
+  font-family: 'orbitron';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/orbitron/orbitron-black.eot');
+  src: url('../fonts/orbitron/orbitron-black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orbitron/orbitron-black.woff') format('woff'),
+       url('../fonts/orbitron/orbitron-black.ttf') format('truetype'),
+       url('../fonts/orbitron/orbitron-black.svg#orbitron') format('svg');
+}
+
+
+html{
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+
+}
+
+.name{
+  font-family: 'orbitron';
+}
+.card-title{
+  font-family: 'orbitron';
+}
+@media only screen and (min-width: 993px){
+  .background{
+    height: 600px;
+    background-image: url('../images/deskpenruler-amberaccent1-1440x753.png');
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .background{
+
+    background-image: url('../images/deskpenruler-amberaccent1-1000x523.png');
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .background{
+
+    background-image: url('../images/deskpenruler-amberaccent1-600x314.png');
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 993px){
+  #index-banner{
+    height: 600px;
+    background-image: url('../images/deskpenruler-amberaccent1-1440x753.png');
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  #index-banner{
+
+    background-image: url('../images/deskpenruler-amberaccent1-1000x523.png');
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner{
+
+    background-image: url('../images/deskpenruler-amberaccent1-600x314.png');
+    background-size: cover;
+  }
+}
+
+
+.background{
+
+}
+
+
+
+#index-banner{
+
+
+
+}
+#index-banner .container{
+  position:relative;
+
+}
+
+
+#index-banner h1{
+  margin-top:184px;
+
+}
+.section.no-pad-bot{
+  padding-bottom:0
+}
+@media only screen and (max-width: 992px){
+  #index-banner h1{
+    margin-top:220px;
+
+  }
+
+}
+@media only screen and (max-width: 600px){
+  #index-banner h1{
+    margin-top:220px;
+
+  }
+}
+
+
+.form_footer_color_button{
+  background-color: #ffab00 ;
+}
+
+.intro_span_h2{
+  color: #ffab00;
+}
+.intro{
+  color: #ff6f00;
+}
+
+
+.form_footer_icon_text{
+  color: #ffab00;
+}
+/* label color */
+   .input-field label {
+     color: #ffab00;
+   }
+
+   input:not([type]):focus:not([readonly]),
+   input[type=text]:focus:not([readonly]),
+   input[type=password]:focus:not([readonly]),
+   input[type=email]:focus:not([readonly]),
+   input[type=url]:focus:not([readonly]),
+   input[type=time]:focus:not([readonly]),
+   input[type=date]:focus:not([readonly]),
+   input[type=datetime]:focus:not([readonly]),
+   input[type=datetime-local]:focus:not([readonly]),
+   input[type=tel]:focus:not([readonly]),
+   input[type=number]:focus:not([readonly]),
+   input[type=search]:focus:not([readonly]),
+   textarea.materialize-textarea:focus:not([readonly]) {
+     border-bottom: 1px solid #ffab00;
+     box-shadow: 0 1px 0 0 #ffab00;
+   }
+
+   input:not([type]):focus:not([readonly]) + label,
+   input[type=text]:focus:not([readonly]) + label,
+   input[type=password]:focus:not([readonly]) + label,
+   input[type=email]:focus:not([readonly]) + label,
+   input[type=url]:focus:not([readonly]) + label,
+   input[type=time]:focus:not([readonly]) + label,
+   input[type=date]:focus:not([readonly]) + label,
+   input[type=datetime]:focus:not([readonly]) + label,
+   input[type=datetime-local]:focus:not([readonly]) + label,
+   input[type=tel]:focus:not([readonly]) + label,
+   input[type=number]:focus:not([readonly]) + label,
+   input[type=search]:focus:not([readonly]) + label,
+   textarea.materialize-textarea:focus:not([readonly]) + label {
+        color: #ffab00;
+    }
+
+    input:not([type]).valid, input:not([type]):focus.valid,
+    input[type=text].valid,
+    input[type=text]:focus.valid,
+    input[type=password].valid,
+    input[type=password]:focus.valid,
+    input[type=email].valid,
+    input[type=email]:focus.valid,
+    input[type=url].valid,
+    input[type=url]:focus.valid,
+    input[type=time].valid,
+    input[type=time]:focus.valid,
+    input[type=date].valid,
+    input[type=date]:focus.valid,
+    input[type=datetime].valid,
+    input[type=datetime]:focus.valid,
+    input[type=datetime-local].valid,
+    input[type=datetime-local]:focus.valid,
+    input[type=tel].valid,
+    input[type=tel]:focus.valid,
+    input[type=number].valid,
+    input[type=number]:focus.valid,
+    input[type=search].valid,
+    input[type=search]:focus.valid,
+    textarea.materialize-textarea.valid,
+    textarea.materialize-textarea:focus.valid {
+      border-bottom: 1px solid #1b5e20;
+      box-shadow: 0 1px 0 0 #1b5e20;
+    }
+
+    input:not([type]).valid + label:after,
+    input:not([type]):focus.valid + label:after,
+    input[type=text].valid + label:after,
+    input[type=text]:focus.valid + label:after,
+    input[type=password].valid + label:after,
+    input[type=password]:focus.valid + label:after,
+    input[type=email].valid + label:after,
+    input[type=email]:focus.valid + label:after,
+    input[type=url].valid + label:after,
+    input[type=url]:focus.valid + label:after,
+    input[type=time].valid + label:after,
+    input[type=time]:focus.valid + label:after,
+    input[type=date].valid + label:after,
+    input[type=date]:focus.valid + label:after,
+    input[type=datetime].valid + label:after,
+    input[type=datetime]:focus.valid + label:after,
+    input[type=datetime-local].valid + label:after,
+    input[type=datetime-local]:focus.valid + label:after,
+    input[type=tel].valid + label:after,
+    input[type=tel]:focus.valid + label:after,
+    input[type=number].valid + label:after,
+    input[type=number]:focus.valid + label:after,
+    input[type=search].valid + label:after,
+    input[type=search]:focus.valid + label:after,
+    textarea.materialize-textarea.valid + label:after,
+    textarea.materialize-textarea:focus.valid + label:after {
+       content: attr(data-success);
+       color: #1b5e20;
+       opacity: 1;
+    }
+
+    input:not([type]).invalid, input:not([type]):focus.invalid,
+    input[type=text].invalid,
+    input[type=text]:focus.invalid,
+    input[type=password].invalid,
+    input[type=password]:focus.invalid,
+    input[type=email].invalid,
+    input[type=email]:focus.invalid,
+    input[type=url].invalid,
+    input[type=url]:focus.invalid,
+    input[type=time].invalid,
+    input[type=time]:focus.invalid,
+    input[type=date].invalid,
+    input[type=date]:focus.invalid,
+    input[type=datetime].invalid,
+    input[type=datetime]:focus.invalid,
+    input[type=datetime-local].invalid,
+    input[type=datetime-local]:focus.invalid,
+    input[type=tel].invalid,
+    input[type=tel]:focus.invalid,
+    input[type=number].invalid,
+    input[type=number]:focus.invalid,
+    input[type=search].invalid,
+    input[type=search]:focus.invalid,
+    textarea.materialize-textarea.invalid,
+    textarea.materialize-textarea:focus.invalid {
+      border-bottom: 1px solid #b71c1c;
+      box-shadow: 0 1px 0 0 #b71c1c;
+    }
+
+    input:not([type]).invalid + label:after,
+    input:not([type]):focus.invalid + label:after,
+    input[type=text].invalid + label:after,
+    input[type=text]:focus.invalid + label:after,
+    input[type=password].invalid + label:after,
+    input[type=password]:focus.invalid + label:after,
+    input[type=email].invalid + label:after,
+    input[type=email]:focus.invalid + label:after,
+    input[type=url].invalid + label:after,
+    input[type=url]:focus.invalid + label:after,
+    input[type=time].invalid + label:after,
+    input[type=time]:focus.invalid + label:after,
+    input[type=date].invalid + label:after,
+    input[type=date]:focus.invalid + label:after,
+    input[type=datetime].invalid + label:after,
+    input[type=datetime]:focus.invalid + label:after,
+    input[type=datetime-local].invalid + label:after,
+    input[type=datetime-local]:focus.invalid + label:after,
+    input[type=tel].invalid + label:after,
+    input[type=tel]:focus.invalid + label:after,
+    input[type=number].invalid + label:after,
+    input[type=number]:focus.invalid + label:after,
+    input[type=search].invalid + label:after,
+    input[type=search]:focus.invalid + label:after,
+    textarea.materialize-textarea.invalid + label:after,
+    textarea.materialize-textarea:focus.invalid + label:after {
+         content: attr(data-error);
+         color: #b71c1c;
+         opacity: 1;
+    }
+
+
+    a{
+    color: #ffab00;
+    }
+
+  a:visited{
+
+    color: #ff6f00;
+
+  }
+  a:hover{
+    color: #ff6f00;
+  }
+
+
+
+
+
+
+  .light{
+    font-weight: 300;
+  }
+
+
+  .btn:hover, .btn-large:hover {
+    background-color: #ff6f00 ;
+  }
+
+
+
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #ffab00;
+   }
+
+  .promo-caption{
+     font-weight: 900;
+  }
+  .intro_header{
+    font-style: italic;
+    font-family: 'orbitron';
+    font-weight: 700;
+  }
+  .section_header{
+    font-style: normal;
+    font-family: 'orbitron';
+    font-weight: 900;
+  }
+  .myheader .word1{
+    color: #ff6f00;
+  }
+  .myheader .word2{
+    color: #ffab00;
+  }
+  .myheader .word3{
+    color: #ff6f00;
+  }
+  .sectionheaderone .word1 .char1{
+    float:left;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
